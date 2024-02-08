@@ -34,7 +34,7 @@ var (
 
 // Command represents command meta information and details.
 type command struct {
-	handler    func(conf *model.Configuration)
+	handler    func(conf *model.Configuration) error
 	cmdMap     commandMap // Optional map of sub commands.
 	usageShort string     // Short command description.
 	usageLong  string     // Long command description.
@@ -107,7 +107,11 @@ func ensureDefaultConfig() (*model.Configuration, error) {
 			return nil, err
 		}
 	}
-	return model.NewDefaultConfiguration(), nil
+	conf, err := model.NewDefaultConfiguration()
+	if err != nil {
+		return nil, err
+	}
+	return conf, nil
 }
 
 // process applies command completion and if successful processes the resulting command.
