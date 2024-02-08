@@ -30,13 +30,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pdfcpu/pdfcpu/pkg/api"
-	"github.com/pdfcpu/pdfcpu/pkg/cli"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/validate"
 	"github.com/pkg/errors"
+	"github.com/robomotionio/pdfcpu/pkg/api"
+	"github.com/robomotionio/pdfcpu/pkg/cli"
+	"github.com/robomotionio/pdfcpu/pkg/pdfcpu"
+	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/model"
+	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/types"
+	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/validate"
 )
 
 var errInvalidBookletID = errors.New("pdfcpu: booklet: n: one of 2, 4")

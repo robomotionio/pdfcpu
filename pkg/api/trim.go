@@ -21,8 +21,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
 	"github.com/pkg/errors"
+	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/model"
 )
 
 // Trim generates a trimmed version of rs

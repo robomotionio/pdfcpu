@@ -21,8 +21,8 @@ import (
 	"io"
 
 	"github.com/hhrutter/lzw"
-	"github.com/pdfcpu/pdfcpu/pkg/log"
 	"github.com/pkg/errors"
+	"github.com/robomotionio/pdfcpu/pkg/log"
 )
 
 type lzwDecode struct {
