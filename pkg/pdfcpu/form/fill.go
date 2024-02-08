@@ -22,11 +22,11 @@ import (
 	"strconv"
 	"strings"
 
+	pdffont "github.com/pdfcpu/pdfcpu/pkg/pdfcpu/font"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/primitives"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
-	pdffont "github.com/robomotionio/pdfcpu/pkg/pdfcpu/font"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/model"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/primitives"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/types"
 )
 
 type DataFormat int

@@ -21,9 +21,9 @@ import (
 
 	"io"
 
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/color"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/draw"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/types"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/color"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/draw"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 )
 
 func drawGuideLineLabel(w io.Writer, x, y float64, s string, mb *types.Rectangle, fm FontMap, rot int) {

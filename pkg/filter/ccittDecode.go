@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"io"
 
+	"github.com/pdfcpu/pdfcpu/pkg/log"
 	"github.com/pkg/errors"
-	"github.com/robomotionio/pdfcpu/pkg/log"
 	"golang.org/x/image/ccitt"
 )
 

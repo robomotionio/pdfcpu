@@ -22,9 +22,9 @@ import (
 	"os"
 	"time"
 
+	"github.com/pdfcpu/pdfcpu/pkg/log"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
 	"github.com/pkg/errors"
-	"github.com/robomotionio/pdfcpu/pkg/log"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/model"
 )
 
 // Validate validates a PDF stream read from rs.

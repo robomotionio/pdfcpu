@@ -21,8 +21,8 @@ import (
 	"compress/zlib"
 	"io"
 
+	"github.com/pdfcpu/pdfcpu/pkg/log"
 	"github.com/pkg/errors"
-	"github.com/robomotionio/pdfcpu/pkg/log"
 )
 
 // Portions of this code are based on ideas of image/png: reader.go:readImagePass

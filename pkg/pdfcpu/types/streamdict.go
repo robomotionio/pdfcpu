@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/robomotionio/pdfcpu/pkg/filter"
-	"github.com/robomotionio/pdfcpu/pkg/log"
+	"github.com/pdfcpu/pdfcpu/pkg/filter"
+	"github.com/pdfcpu/pdfcpu/pkg/log"
 
 	"github.com/pkg/errors"
 )

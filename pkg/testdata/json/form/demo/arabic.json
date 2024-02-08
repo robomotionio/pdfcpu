@@ -26,7 +26,7 @@
 		},
 		"logo2": {
 			"srcw": "$logo2",
-			"url": "https://github.com/robomotionio/pdfcpu",
+			"url": "https://github.com/pdfcpu/pdfcpu",
 			"margin": {
 				"width": 5
 			}

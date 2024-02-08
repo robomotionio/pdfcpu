@@ -24,13 +24,13 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/pdfcpu/pdfcpu/pkg/font"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/color"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/draw"
+	pdffont "github.com/pdfcpu/pdfcpu/pkg/pdfcpu/font"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
-	"github.com/robomotionio/pdfcpu/pkg/font"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/color"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/draw"
-	pdffont "github.com/robomotionio/pdfcpu/pkg/pdfcpu/font"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/model"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/types"
 )
 
 // FieldFlags represents the PDF form field flags.

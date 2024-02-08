@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/draw"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/model"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/types"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/draw"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 )
 
 // DefaultBookletConfig returns the default configuration for a booklet

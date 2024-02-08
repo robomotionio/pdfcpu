@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/types"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 )
 
 const (

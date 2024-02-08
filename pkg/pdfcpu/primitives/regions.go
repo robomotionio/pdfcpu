@@ -19,9 +19,9 @@ package primitives
 import (
 	"strings"
 
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/model"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/types"
 )
 
 type Regions struct {

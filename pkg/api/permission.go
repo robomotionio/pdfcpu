@@ -21,8 +21,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
 	"github.com/pkg/errors"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/model"
 )
 
 // Permissions returns user access permissions for rs.

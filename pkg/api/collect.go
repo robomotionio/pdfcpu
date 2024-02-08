@@ -21,9 +21,9 @@ import (
 	"os"
 	"time"
 
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
 	"github.com/pkg/errors"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/model"
 )
 
 // Collect creates a custom PDF page sequence for selected pages of rs and writes the result to w.

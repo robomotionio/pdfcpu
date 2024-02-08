@@ -21,10 +21,10 @@ import (
 	"os"
 	"time"
 
+	"github.com/pdfcpu/pdfcpu/pkg/log"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
-	"github.com/robomotionio/pdfcpu/pkg/log"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/model"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/types"
 )
 
 // InsertPages inserts a blank page before or after every page selected of rs and writes the result to w.

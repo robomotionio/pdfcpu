@@ -20,8 +20,8 @@ package filter
 import (
 	"io"
 
+	"github.com/pdfcpu/pdfcpu/pkg/log"
 	"github.com/pkg/errors"
-	"github.com/robomotionio/pdfcpu/pkg/log"
 )
 
 // PDF defines the following filters. See also 7.4 in the PDF spec.

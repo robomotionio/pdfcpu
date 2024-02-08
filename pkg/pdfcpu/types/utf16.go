@@ -24,8 +24,8 @@ import (
 	"unicode/utf16"
 	"unicode/utf8"
 
+	"github.com/pdfcpu/pdfcpu/pkg/log"
 	"github.com/pkg/errors"
-	"github.com/robomotionio/pdfcpu/pkg/log"
 )
 
 // ErrInvalidUTF16BE represents an error that gets raised for invalid UTF-16BE byte sequences.

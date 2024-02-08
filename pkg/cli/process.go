@@ -17,8 +17,8 @@ limitations under the License.
 package cli
 
 import (
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
 	"github.com/pkg/errors"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/model"
 )
 
 // Process executes a pdfcpu command.

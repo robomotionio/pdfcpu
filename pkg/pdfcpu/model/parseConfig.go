@@ -23,8 +23,8 @@ import (
 	"bytes"
 	"io"
 
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/types"
 	"gopkg.in/yaml.v2"
 )
 

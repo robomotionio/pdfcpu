@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/types"
 )
 
 // This gets rid of the gopkg.in/yaml.v2 dependency for wasm builds.

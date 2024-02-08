@@ -22,12 +22,12 @@ import (
 	"io"
 	"unicode/utf8"
 
+	"github.com/pdfcpu/pdfcpu/pkg/font"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/color"
+	pdffont "github.com/pdfcpu/pdfcpu/pkg/pdfcpu/font"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
-	"github.com/robomotionio/pdfcpu/pkg/font"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/color"
-	pdffont "github.com/robomotionio/pdfcpu/pkg/pdfcpu/font"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/model"
-	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/types"
 )
 
 // ListBox represents a specific choice form field including a positioned label.
