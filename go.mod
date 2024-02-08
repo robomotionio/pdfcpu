@@ -1,4 +1,4 @@
-module github.com/pdfcpu/pdfcpu
+module github.com/robomotionio/pdfcpu
 
 go 1.20
 
@@ -8,6 +8,7 @@ require (
 	github.com/hhrutter/lzw v1.0.0
 	github.com/hhrutter/tiff v1.0.1
 	github.com/mattn/go-runewidth v0.0.15
+	github.com/pdfcpu/pdfcpu v0.0.0-00010101000000-000000000000
 	github.com/pkg/errors v0.9.1
 	golang.org/x/image v0.12.0
 	golang.org/x/text v0.13.0
