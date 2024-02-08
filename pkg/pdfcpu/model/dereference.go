@@ -19,8 +19,8 @@ package model
 import (
 	"strings"
 
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
+	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/types"
 )
 
 func (xRefTable *XRefTable) indRefToObject(ir *types.IndirectRef) (types.Object, error) {

@@ -25,12 +25,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/pdfcpu/pdfcpu/pkg/api"
-	"github.com/pdfcpu/pdfcpu/pkg/log"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/form"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
 	"github.com/pkg/errors"
+	"github.com/robomotionio/pdfcpu/pkg/api"
+	"github.com/robomotionio/pdfcpu/pkg/log"
+	"github.com/robomotionio/pdfcpu/pkg/pdfcpu"
+	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/form"
+	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/model"
 )
 
 func listAttachments(rs io.ReadSeeker, conf *model.Configuration, withDesc, sorted bool) ([]string, error) {
