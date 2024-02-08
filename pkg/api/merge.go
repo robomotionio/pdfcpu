@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/pdfcpu/pdfcpu/pkg/log"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
 	"github.com/pkg/errors"
+	"github.com/robomotionio/pdfcpu/pkg/log"
+	"github.com/robomotionio/pdfcpu/pkg/pdfcpu"
+	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/model"
 )
 
 // appendTo appends rs to ctxDest's page tree.

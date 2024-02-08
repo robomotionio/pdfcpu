@@ -26,10 +26,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pdfcpu/pdfcpu/pkg/log"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
 	"github.com/pkg/errors"
+	"github.com/robomotionio/pdfcpu/pkg/log"
+	"github.com/robomotionio/pdfcpu/pkg/pdfcpu"
+	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/model"
 )
 
 // ExtractImagesRaw returns []pdfcpu.Image containing io.Readers for images contained in selectedPages.

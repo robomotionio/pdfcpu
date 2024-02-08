@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
+	"github.com/robomotionio/pdfcpu/pkg/pdfcpu/types"
 )
 
 // Some popular colors.
